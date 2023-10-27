@@ -1,10 +1,10 @@
 package com.miaomiao.web;
 
+import com.google.gson.Gson;
 import com.miaomiao.pojo.User;
 import com.miaomiao.service.UserService;
 import com.miaomiao.service.impl.UserServiceImpl;
 import com.miaomiao.utils.WebUtils;
-import com.google.gson.Gson;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;

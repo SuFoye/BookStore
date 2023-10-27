@@ -2,8 +2,9 @@ package com.miaomiao.utils;
 
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
+
 import java.io.InputStream;
-import java.sql.*;
+import java.sql.Connection;
 import java.util.Properties;
 
 public class JdbcUtils {
